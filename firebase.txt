@@ -1,0 +1,35 @@
+1. Como o Firebase é conceituado? Descreva.
+	O Firebase é um Baas (Backend as a Service) para aplicações Web e Mobile do Google.
+
+2. Quais são os serviços que o Firabase oferece? Descreva-os.
+	O Firebase oferece uma gama de serviços que podem ser utilizados, eles são separados por 4 grandes categorias, sendo elas Analyics, Develop, Grow e Earn.
+	
+	Analytics: O Analytics possibilita a análise em tempo real sobre o comportamento dos usuários nos seus Apps, além de disponibilizar dados sobre falhas, compras no aplicativo, desempenho de links diretos e muito mais.
+
+	Realtime Database: O Banco de Dados em Tempo Real permite o armazenamento e sincronismo dos dados entre usuários e dispositivos em tempo real com um banco de dados NoSQL hospedado na nuvem.
+
+Os dados atualizados são sincronizados em todos os dispositivos conectados em segundos. Além disso, seus dados permanecem disponíveis caso seu aplicativo fique off-line, o que oferece uma ótima experiência do usuário, independentemente da conectividade de rede.
+
+	Authentication: O Firebase Auth oferece diversos métodos de autenticação, como e-mail/senha, provedores de terceiros, como o Google ou Facebook, Login Anônimo, Confirmação via SMS, ou o uso direto do seu sistema de contas. O gerenciamento de usuários se torna simples e seguro.
+
+	Cloud Messaging: O Firebase Cloud Messaging (FCM) oferece o envio de mensagens e notificações gratuitamente para usuários de várias plataformas, seja Android, iOS ou na Web. As mensagens podem ser enviadas para dispositivos únicos, grupos de dispositivos, segmentos de usuários ou tópicos específicos.
+
+	Storage: O Firebase Cloud Storage permite que você armazene e compartilhe facilmente imagens, áudio, vídeo ou outro conteúdo gerado pelos usuários usando um armazenamento de objetos poderoso, simples e econômico criado para a escala do Google.
+
+Os SDKs do Firebase para Cloud Storage adicionam a segurança do Google aos uploads e downloads de arquivo dos seus aplicativos do Firebase, independentemente da qualidade da rede.
+
+	AdMob: A AdMob do Google é uma plataforma de publicidade que pode ser usada para gerar receita com sua aplicação. O uso da AdMob com o Google Analytics para Firebase fornece recursos adicionais de dados e recursos de análise de aplicativos.
+
+3. Cite os principais benefícios do Firebase.
+	
+	Estrutura Pronta;
+	Rápida Implementação;
+	Segurança;
+
+4. O que é um BaaS (Backend As A Service)? Descreva.
+	
+	BaaS ou BackEnd As A Service (MBaaS = Mobile BackEnd As A Service) é um serviço disponibilizado em que toda a estrutura do backend como: configuração de servidor, integração com banco de dados, sistema de push notification e outros serviços, que fazem parte do backend, estão completamente prontos para se integrar com o seu aplicativo.
+
+5. É viável utilizar o Firebase em uma aplicação Móvel? Justifique sua resposta 
+
+Não, pois não existe um SDK próprio para uso das linguagens de desenvolvimento mobile, é possível sim configurar, porém o SDK não terá acesso a todos os serviços oferecidos pelo firebase.
